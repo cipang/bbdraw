@@ -1,0 +1,42 @@
+body, select, button {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#output {
+    font-size: 650px;
+    line-height: 0.9;
+    color: Orange;
+    text-align: center;
+    border: 5px solid #aaa;
+    margin: 20px;
+    padding: 50px 0 50px;
+    cursor: default;
+}
+
+#output.confirmed {
+    font-weight: bold;
+    color: red;
+}
+
+footer.small {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#div-select {
+    padding: 600px 10px 10px 20px;
+    text-align: center;
+}
+
+#div-button {
+    padding: 15px;
+    text-align: center;
+}
+
+#btn-draw {
+    font-size: 72px;
+    width: 400px;
+    border-radius: 10px;
+}

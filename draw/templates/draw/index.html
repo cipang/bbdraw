@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draw</title>
+    {% load static %}
+    <script src="{% static 'jquery-2.2.2.min.js' %}"></script>
+    <script src="{% static 'draw.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'default.css' %}" type="text/css">
+</head>
+<body>
+    <div id="output" class="confirmed">---</div>
+    <div id="div-button">
+        <button type="button" id="btn-draw" class="draw-ui">抽 Draw</button>
+    </div>
+    <div id="div-select">
+        抽籤隊伍：
+        <select id="sel-teams" class="draw-ui"></select> &nbsp;|&nbsp;
+        <a href="/admin" target="_blank">控制台</a>
+    </div>
+    <footer class="small">&copy; 2016 Patrick Pang for AAAUM</footer>
+</body>
+</html>
